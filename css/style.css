@@ -1,0 +1,74 @@
+/* Common */
+    /*  
+        - container
+        - opacity hover
+        - section header
+        - section padding
+        - hover effect 1 (left to right)
+        - hover effect 2 (top to bottom)
+
+    */
+
+    /* 
+        Libraries needed
+        - Font awsome
+    */
+
+    /* common css */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;  /*css3 */
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+
+    body{
+        font-family: 'Varela Round', sans-serif;
+    }
+
+    .clear{
+        clear: both;
+    }
+    /* End common css */
+    .header{
+        background-color: grey;
+    }
+
+    .header-content{
+        overflow: hidden;
+    }
+    .header .logo{
+        width: 40%;
+        float: left;
+    }
+
+    .header .nav{
+        width: 60%;
+        
+        float: left;
+        list-style: none;
+    }
+
+    .header .nav li{
+        display: inline-block;
+    }
+    
+    .header .nav li a{
+        color: wheat;
+        text-decoration: none;
+        padding: 20px 10px;
+        display: block;
+    }
+
+    /* Home Section */
+    /* About Section */
+    /* Portofolio Section */
+    /* Service Section */
+    /* Prices Section */
+    /* Team Section */
+    /* contact Section */
